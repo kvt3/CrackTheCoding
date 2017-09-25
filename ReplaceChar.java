@@ -27,18 +27,12 @@ public class replaceString {
 		char[] str1 = new char[len+2*cnt];
 		int j = 0;
 		for(int i = 0; i<(len);i++){
-			
 			if(str[i]==' '){
-				str1[j] = '%';
-				j++;
-				str1[j] = '2';
-				j++;
-				str1[j] = '0';
-				j++;
+				str1[j++] = '%';
+				str1[j++] = '2';
+				str1[j++] = '0';
 			}else{
-			str1[j] = str[i];
-			
-			j++;
+			str1[j++] = str[i];
 			}
 		}
 		String str2 = String.copyValueOf(str1);
