@@ -1,4 +1,10 @@
 package practice;
+/*Ch01_Q09 / String Rotation: Assume you have a method isSubstring which checks if one word is a substring of another. 
+Given two strings, s1 and s2, write a code to check if s2 is a rotation of s1 using only one call to isSubstring
+Example:
+"waterbottle" is a rotation of "erbottlewat"
+Time Complexity is O(n) 2n->n
+*/
 
 public class stringMatching {
 
